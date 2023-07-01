@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="High Score: 0"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/timer_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:entries="@array/timer_values"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/tap_zone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Tap Zone"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Start"
+        android:textSize="26sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/rounded_corner_background" />
+
+
+</LinearLayout>
